@@ -1,0 +1,25 @@
+.nav_container {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 10px 30px 5px 30px;
+    border-top: 1px solid #c1c1c1;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;  
+}
+
+.tab_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #c1c1c1;
+    transition: transform 0.3s linear;
+    
+}
+
+.tab_section:hover {
+    transform: scale(1.1);
+}
+.nav_tab{
+    font-size: 10px;
+}

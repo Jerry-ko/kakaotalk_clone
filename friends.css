@@ -1,0 +1,39 @@
+.friends_section_header {
+    font-size: 12px;
+    padding: 10px 15px;
+    color: #b4b4b4;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.friends_section_row {
+    padding: 10px 15px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+}
+
+.friends_section_row img{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.friends_section_tagline{
+    font-size: 10px;
+    background: #f0f0f0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #939393;
+}
+
+.tab_bar {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: #c1c1c1;
+}
+
+.tab_bar_selected {
+    color:  #523737;
+}
